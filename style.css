@@ -1,0 +1,490 @@
+
+h1 {
+    /* text-align: center; */
+    color: #333;
+    margin: 20px 0;
+}
+h2{
+    font-size: 100px;
+    margin: 20px 0;
+    text-align: center;
+    justify-content: center;
+
+}
+
+/* Navigation Bar Styling */
+nav {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px 50px;
+    font-family: 'Arial', sans-serif;
+}
+
+nav .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    
+    color: #003893;
+}
+
+nav ul {
+    text-decoration: none;
+    color:#DD123D;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0px 10px;
+    font-weight: 600px;
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1em;
+    color: #003893;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    
+    color: #DD123D;
+}
+
+nav .social-icons {
+    display: flex;
+    align-items: center;
+}
+
+nav .social-icons a {
+    margin-left: 15px;
+    color: #003893;
+    font-size: 1.2em;
+}
+
+nav .social-icons a:hover {
+    color: #DD123D;
+}
+/* 
+Body section  */
+
+.hero-section {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 50px;
+    background-color: white;
+}
+.hero-section #particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+.content {
+    max-width: 50%;
+    padding: 100px;
+}
+
+.content h1 {
+    font-size: 4em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 1.2em;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.content a {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #DD123D;
+   
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    border-radius: 5px;
+    transition: transform 0.3s ease;    
+}
+
+.content a:hover {
+    background-color: #003893;
+    transform: translateY(-10px);
+}
+
+.hero-image {
+    max-width: 45%;
+}
+
+.hero-image img {
+    width: 100%;
+}
+
+/* <--about section-- */
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    /* flex-direction: row-reverse; */
+   
+}
+.container h1 {
+    text-align: left;
+    font-size: 10em;
+    font-weight: bold;
+}
+.text-section {
+    max-width: 600px;
+}
+
+.text-section h1 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    
+}
+
+.text-section p {
+    font-size: 1.2em;
+    color: #555;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.info-boxes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.info-box {
+    background-color: #DD123D;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 150px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.info-box:hover {
+    background-color: #003893;
+    transform: translateY(-10px);
+}
+
+.image-section {
+    margin-left: 40px;
+}
+
+.image-section img {
+    width: 100%;
+    max-width: 900px;
+}
+
+
+/* OUR TEAM STARTS */
+
+
+.team{
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 70px;
+    font-weight: bolder;
+    margin: 0 auto;
+}
+
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    max-width: 1281px; /* You can adjust this width as needed */
+}
+
+.team-card {
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, opacity 0.5s ease;
+    /* text-align: center; */
+}
+
+.team-card:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+    background-color: #DD123D;
+    color: #fff;
+}
+
+.team-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.team-card h3 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+.team-card p {
+    font-size: 0.9em;
+    color: #bbb;
+    line-height: 1.4;
+}
+
+.team-container a {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: white;
+   
+    color: black;
+    text-decoration: none;
+    font-size: 1.1em;
+    border-radius: 5px;
+    transition: transform 0.3s ease;    
+}
+
+.team-container a:hover {
+    background-color: #003893;
+    font-size: 24px;
+    font-weight: 32px;
+    color: #fff;
+    transform: translateY(-10px);
+}
+
+
+
+.blogs-section {
+    text-align: center;
+    margin: 50px auto;
+}
+
+.blogs-section h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+/* Ensure blog-container elements align in a row */
+.blog-container {
+    display: flex;
+    justify-content: space-between;  /* Distributes the cards evenly */
+    flex-wrap: nowrap;               /* Prevents wrapping onto a new line */
+    overflow-x: auto;                /* Allows horizontal scroll if content overflows */
+    gap: 20px;                       /* Adds space between blog cards */
+    padding: 0 20px;
+}
+
+.blog-card {
+    background: #fff;
+    border: 1px solid #003792;
+    border-radius: 10px;
+    width: 30%;                      /* Ensures cards are aligned consistently */
+    min-width: 300px;                 /* Prevents the cards from getting too narrow */
+    margin-bottom: 20px;
+    overflow: hidden;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    position: relative;
+}
+
+.blog-card img {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+
+.blog-card h3 {
+    font-size: 1.5rem;
+    margin: 15px 0;
+}
+
+.blog-card p {
+    padding: 0 15px;
+    font-size: 1rem;
+    color: #555;
+}
+
+.btn-readmore {
+    display: inline-block;
+    margin: 15px;
+    padding: 10px 20px;
+    background: #DD123D;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.btn-readmore:hover {
+    background: #003792;
+}
+
+/* Hover Effect */
+.blog-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Burst Effect */
+.burst {
+    position: absolute;
+    background: rgba(0, 123, 255, 0.1);
+    border-radius: 50%;
+    transform: scale(0);
+    animation: burst-animation 0.5s forwards ease-out;
+    pointer-events: none;
+    z-index: 1;
+}
+
+@keyframes burst-animation {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(4);
+        opacity: 0;
+    }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .blog-container {
+        flex-wrap: wrap;   /* Allow cards to wrap on smaller screens */
+        justify-content: center;
+    }
+
+    .blog-card {
+        width: 100%;       /* Make the cards take full width on small screens */
+        min-width: unset;
+    }
+}
+
+/* services section  */
+.services-section {
+    text-align: center;
+    margin: 50px auto;
+}
+
+.services-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+/* Red Bar for Tabs */
+.switch-bar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.tab {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #d50032;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 1.2rem;
+}
+
+.tab.active {
+    background-color: #c7002a;
+}
+
+.tab:hover {
+    background-color: #a50027;
+}
+
+/* Service Cards */
+.service-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.service-card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    width: 30%;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+    transform: scale(1.05);
+}
+
+.icon-box {
+    background-color: #000;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px;
+}
+
+.service-card p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.btn-readmore {
+    background-color: #d50032;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-readmore:hover {
+    background-color: #c7002a;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .service-container {
+        flex-wrap: wrap;
+    }
+
+    .service-card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
