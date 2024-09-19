@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="blog-page.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <title>Concern Nepal</title>
+    </head>
+<body>  
+      <nav>
+    <div class="logo">ConcernNepal</div>
+    <ul class="nav-links" id="nav-links">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="#content">About</a></li>
+        <li><a href="#Our Team">Our team</a></li>
+        <li><a href="./blog-page.html">Blog</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+     
+      <div class="hamburger" id="hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+    <div class="social-icons">
+        <a href="https://facebook.com"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+        <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+    </div>
+</nav>
+<script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('nav-links');
+
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+   <div class="container">
+    <!-- Header Section -->
+    <!-- <div class="header">
+        <h1>What is happening?</h1>
+        <h2>Nepal</h2>
+    </div> -->
+
+    <!-- Blog Section -->
+    <div class="blogs">
+        <h3>BLOGS</h3>
+        <div class="blog-grid">
+            <!-- Blog Items -->
+            <!-- <a href="page2.html" class="blog-link">
+            <div class="blog-item" style="background-image: url('./picture/blog_1.png')">
+                <div class="blog-content">
+
+                    <a href="./blog.html" class="btn-readmore">Read More</a>
+                </div>
+            </div>
+        </a> -->
+        <a href="blog.html" class="blog-link">
+            <div class="blog-item" style="background-image: url('./picture/blog_1.png');">
+                <div class="blog-content">
+                    <div class="btn-readmore">Read-More</div>
+                </div>
+            </div>
+        </a>
+        <a href="blog_2.html" class="blog-link">
+            <div class="blog-item" style="background-image: url('./picture/blog_2.png');">
+                <div class="blog-content">
+                    <div class="btn-readmore">Read-More</div>
+                </div>
+            </div>
+        </a>
+        <a href="blog_3.html" class="blog-link">
+            <div class="blog-item" style="background-image: url('./picture/blog_3.png');">
+                <div class="blog-content">
+                    <div class="btn-readmore">Read-More</div>
+                </div>
+            </div>
+        </a>
+            <div class="blog-item" style="background-image: url('./picture/commingsoon.png')">
+                <div class="blog-content">
+                    <a href="./commingSoon.html" class="btn-readmore">Read More</a>
+                </div>
+            </div>
+            <div class="blog-item"  style="background-image: url('./picture/commingsoon.png')">
+                <div class="blog-content">
+                    <a href="./commingSoon.html" class="btn-readmore">Read More</a>
+                </div>
+            </div>
+            <div class="blog-item"  style="background-image: url('./picture/commingsoon.png')">
+                <div class="blog-content">
+                    <a href="./commingSoon.html" class="btn-readmore">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<footer>
+    <div class="container">
+        <p>&copy; 2024 Concern Nepal</p>
+    </div>
+</footer>
+</body>
+</html>
