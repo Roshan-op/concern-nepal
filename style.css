@@ -30,32 +30,67 @@ nav .logo {
     color: #003893;
 }
 
-nav ul {
-    text-decoration: none;
-    color:#DD123D;
-    padding: 6px 15px;
-    border-radius: 20px;
-    margin: 0px 10px;
-    font-weight: 600px;
-    display: flex;
+.nav-links {
     list-style: none;
-}
-
-nav ul li {
-    margin: 0 15px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    font-size: 1em;
-    color: #003893;
-    font-weight: 500;
-}
-
-nav ul li a:hover {
-    
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links a {
     color: #DD123D;
-}
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    background-color: #003792;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .hamburger {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .hamburger i {
+    font-size: 24px;
+    color: #DD123D;
+  }
+  
+  /* Make the navigation responsive */
+  @media screen and (max-width: 768px) {
+    .nav-links {
+      position: absolute;
+      top: 60px;
+      right: 0;
+      background-color: #003792;
+      color: white;
+      width: 100%;
+      height: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      overflow: hidden;
+      transition: height 0.3s ease-in-out;
+    }
+  
+    .nav-links.active {
+      height: 180px; /* Adjust height based on the number of items */
+    }
+  
+    .nav-links li {
+      margin: 10px 0;
+    }
+  
+    .hamburger {
+      display: block;
+    }
+  }
 
 nav .social-icons {
     display: flex;
