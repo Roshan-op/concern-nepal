@@ -10,21 +10,31 @@
 </head>
 <body>
     <nav>
-        <div class="logo">ConcernNepal</div>
-        <ul>
-            
-            <li><a class="active" href="content">About</a></li>
-            <li><a href="#Our Team">Our Team</a></li>
-            <li><a href="about">Blog</a></li>
-            <li><a href="services">Services</a></li>
-            <li><a href="contact">Contact</a></li>
-        </ul>
-        <div class="social-icons">
-            <a href="https://facebook.com"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
-            <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
-        </div>
-    </nav>
+            <div class="logo">ConcernNepal</div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+              <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+              </div>
+            <div class="social-icons">
+                <a href="https://facebook.com"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+                <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+            </div>
+        </nav>
+        <script>
+            const hamburger = document.getElementById('hamburger');
+            const navLinks = document.getElementById('nav-links');
+        
+            hamburger.addEventListener('click', () => {
+              navLinks.classList.toggle('active');
+            });
+          </script>
+        <div>
 
 
     <!-- body section -->
