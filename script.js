@@ -1,3 +1,5 @@
+
+
 $(document).ready(function () {
 
     $('#menu').click(function () {
@@ -58,8 +60,6 @@ var typed = new Typed(".typing-text", {
 
 
 
-
-    // services section 
 // JavaScript to handle the tab switching logic
 
 const tabs = document.querySelectorAll('.tab');
@@ -86,4 +86,3 @@ tabs.forEach(tab => {
         });
     });
 });
-
